@@ -4,148 +4,194 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstsatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Montserrat:wght@300;400&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Freebie</title>
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="/">logo</a>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blogs</a></li>
-        </ul>
-        <button type="button">Gift Finder</button>
-      </nav>
+    <header class="navigashion">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo link" href="/">logo</a>
+          <ul class="list-nav list">
+            <li class="item-nav"><a class="nav-link link" href="#">Home</a></li>
+            <li class="item-nav"><a class="nav-link link" href="#">About Us</a></li>
+            <li class="item-nav"><a class="nav-link link" href="#">Services</a></li>
+            <li class="item-nav"><a class="nav-link link" href="#">Blogs</a></li>
+          </ul>
+          <button type="button" class="nav-btn">Gift Finder</button>  
+      </div>
     </header>
+
     <main>
-      <section>
-        <h1>Find a gift for your wife or girlfriend</h1>
-        <p>Struggling to find a gift for your wife or girlfriend? No problem!</p>
-        <button type="button">Find gift now</button>
-        <img src="./images/Couple.jpg" alt="couple" width="719" height="700" />
-      </section>
-      <section>
-        <img src="./images/Thanks.jpg" alt="thanks" width="721" height="600" />
-        <h2>How we work</h2>
-        <p>
-          We’ve actually already asked hundreds of women what they want, and made a database with
-          the results. All you have to do is take our short survey that only takes seconds, and our
-          proprietary algorithm will match you with a few perfect gift options.
-        </p>
-        <button type="button">Learn More</button>
-      </section>
-      <section>
-        <h2>Gifts for all Occasions</h2>
-        <p>“Try our web app to find the best gifts for all occasions”</p>
-        <ul>
-          <li>
-            <img src="./images/birthday.jpg" alt="birthday" width="270" />
-            <h3>Birthday</h3>
-            <details>
-              <summary>See More ›</summary>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta illo tenetur totam at
-              quia sequi, dignissimos dicta fugiat natus doloremque?
-            </details>
-          </li>
-          <li>
-            <img src="./images/anniversary.jpg" alt="anniversary" width="270" />
-            <h3>Anniversary</h3>
-            <details>
-              <summary>See More ›</summary>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem inventore
-              consequuntur recusandae itaque nobis ea sapiente minus animi laborum temporibus?
-            </details>
-          </li>
-          <li>
-            <img src="./images/valentine.jpg" alt="valentine's day" width="270" />
-            <h3>Valentine's Day</h3>
-            <details>
-              <summary>See More ›</summary>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum consequatur
-              tempore expedita tempora reprehenderit sapiente architecto praesentium est
-              consectetur!
-            </details>
-          </li>
-          <li>
-            <img src="./images/christmas.jpg" alt="christmas" width="270" />
-            <h3>Christmas</h3>
-            <details>
-              <summary>See More ›</summary>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non pariatur magni neque
-              voluptas quaerat laboriosam distinctio officiis debitis libero culpa.
-            </details>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Ready to get started?</h2>
-        <p>Sign up or contact us</p>
-        <ul>
-          <li><button type="button">Find gift now</button></li>
-          <li><button type="button">how it works</button></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Our Best Blogs Ever</h2>
-        <p>“Try our blog to find the best tips and tricks to select your gift”</p>
-        <img src="./images/Couple2.jpg" alt="Couple" width="400" height="370" />
-        <p>Mr. John Doe</p>
-        <p>The best way to wish your wife</p>
-        <a href="#">Read More</a>
-        <ul>
-          <li>
-            <h3>Database to find the gifts for your girlfriend</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore...
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-main">
+            <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+            <p class="hero-text">
+              Struggling to find a gift for your wife or girlfriend? No problem!
             </p>
-            <a href="#">Read More</a>
-          </li>
-          <li>
-            <h3>How Artificial Intelligence read your mind to find the best gift</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore...
+            <button class="hero-btn" type="button">Find gift now</button>
+          </div>
+          <img class="hero-pic" src="./images/Couple.jpg" alt="couple" width="719" height="700" />
+        </div>
+      </section>
+
+      <section class="work-section">
+        <div class="container">
+          <img class="work-pic" src="./images/Thanks.jpg" alt="thanks" width="721" height="600" />
+          <div class="work-main">
+            <h2 class="work-title">How we work</h2>
+            <p class="work-text">
+              We’ve actually already asked hundreds of women what they want, and made a database
+              with the results. All you have to do is take our short survey that only takes seconds,
+              and our proprietary algorithm will match you with a few perfect gift options.
             </p>
-            <a href="#">Read More</a>
-          </li>
-        </ul>
+            <button type="button" class="work-btn">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="gifts-section">
+        <div class="container">
+          <h2 class="gifts-heading">Gifts for all Occasions</h2>
+          <p class="gifts-text">“Try our web app to find the best gifts for all occasions”</p>
+          <ul class="gifts-list list">
+            <li class="gifts-item">
+              <img src="./images/birthday.jpg" alt="birthday" width="270" />
+              <h3 class="gifts-title">Birthday</h3>
+              <details>
+                <summary class="details">See More ›</summary>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta illo tenetur totam
+                at quia sequi, dignissimos dicta fugiat natus doloremque?
+              </details>
+            </li>
+            <li class="gifts-item">
+              <img src="./images/anniversary.jpg" alt="anniversary" width="270" />
+              <h3 class="gifts-title">Anniversary</h3>
+              <details>
+                <summary class="details">See More ›</summary>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem inventore
+                consequuntur recusandae itaque nobis ea sapiente minus animi laborum temporibus?
+              </details>
+            </li>
+            <li class="gifts-item">
+              <img src="./images/valentine.jpg" alt="valentine's day" width="270" />
+              <h3 class="gifts-title">Valentine's Day</h3>
+              <details>
+                <summary class="details">See More ›</summary>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum
+                consequatur tempore expedita tempora reprehenderit sapiente architecto praesentium
+                est consectetur!
+              </details>
+            </li>
+            <li class="gifts-item">
+              <img src="./images/christmas.jpg" alt="christmas" width="270" />
+              <h3 class="gifts-title">Christmas</h3>
+              <details>
+                <summary class="details">See More ›</summary>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non pariatur magni neque
+                voluptas quaerat laboriosam distinctio officiis debitis libero culpa.
+              </details>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="registration">
+        <div class="container">
+          <div class="registration-text">
+            <h2>Ready to get started?</h2>
+            <p>Sign up or contact us</p>
+          </div>
+          <ul>
+            <li><button type="button" class="reg-btn">Find gift now</button></li>
+            <li><button type="button" class="reg-btn">how it works</button></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="blogs">
+        <div class="container">
+          <h2 class="blogs-title">Our Best Blogs Ever</h2>
+          <p class="blogs-text">
+            “Try our blog to find the best tips and tricks to select your gift”
+          </p>
+          <div class="blog-advertising">
+            <img src="./images/Couple2.jpg" alt="Couple" width="400" height="370" />
+            <p class="bloger">Mr. John Doe</p>
+            <p class="blog-content">The best way to wish your wife</p>
+            <a href="#" class="more-inform link">Read More</a>
+          </div>
+          <ul class="list blogs-list">
+            <li class="blogs-item">
+              <h3 class="title-blog-item">Database to find the gifts for your girlfriend</h3>
+              <p class="text-blog-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore...
+              </p>
+              <a href="#" class="more-inform-item link">Read More</a>
+            </li>
+            <li class="blogs-item">
+              <h3 class="title-blog-item">
+                How Artificial Intelligence read your mind to find the best gift
+              </h3>
+              <p class="text-blog-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore...
+              </p>
+              <a href="#" class="more-inform-item link">Read More</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+
     <footer>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">logo</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#"><img src="./images/Facebook.png" alt="facebook" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="./images/twitter.png" alt="twitter" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="./images/instagram.png" alt="instagram" width="40" height="40"
-          /></a>
-        </li>
-        <li>
-          <a href="#"><img src="./images/youtube.png" alt="youtube" width="40" height="40" /></a>
-        </li>
-        <li>
-          <a href="#"
-            ><img src="./images/pinterest.png" alt="pinterest" width="40" height="40"
-          /></a>
-        </li>
-      </ul>
-      <p>© 2010 — 2020</p>
-      <p>Privacy — Terms</p>
+      <div class="container">
+        <ul class="list footer-list">
+          <li class="footer-item"><a href="#" class="footer-nav-link link">Home</a></li>
+          <li class="footer-item"><a href="#" class="footer-nav-link link">About</a></li>
+          <li class="footer-item"><a href="#" class="footer-logo link">logo</a></li>
+          <li class="footer-item"><a href="#" class="footer-nav-link link">Service</a></li>
+          <li class="footer-item"><a href="#" class="footer-nav-link link">Blog</a></li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="./images/Facebook.png" alt="facebook" width="40" height="40"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/twitter.png" alt="twitter" width="40" height="40" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/instagram.png" alt="instagram" width="40" height="40"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./images/youtube.png" alt="youtube" width="40" height="40" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="./images/pinterest.png" alt="pinterest" width="40" height="40"
+            /></a>
+          </li>
+        </ul>
+        <p class="copywrite">© 2010 — 2020</p>
+        <p class="privacy">Privacy — Terms</p>
+      </div>
     </footer>
   </body>
 </html>
