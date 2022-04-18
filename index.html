@@ -110,31 +110,33 @@
 
       <section class="registration">
         <div class="container">
-          <div class="registration-text">
-            <h2>Ready to get started?</h2>
-            <p>Sign up or contact us</p>
+          <div>
+            <h2 class="registration-text">Ready to get started?</h2>
+            <p class="registration-text"> Sign up or contact us</p>
           </div>
-          <ul>
-            <li><button type="button" class="reg-btn">Find gift now</button></li>
-            <li><button type="button" class="reg-btn">how it works</button></li>
+          <ul class="list-of-btn list">
+            <li class="btn-item"><button type="button" class="reg-btn">Find gift now</button></li>
+            <li class="btn-item"><button type="button" class="reg-btn">how it works</button></li>
           </ul>
         </div>
       </section>
 
       <section class="blogs">
         <div class="container">
-          <h2 class="blogs-title">Our Best Blogs Ever</h2>
-          <p class="blogs-text">
+          <h2 class="blog-title">Our Best Blogs Ever</h2>
+          <p class="blog-text">
             “Try our blog to find the best tips and tricks to select your gift”
           </p>
           <div class="blog-advertising">
             <img src="./images/Couple2.jpg" alt="Couple" width="400" height="370" />
-            <p class="bloger">Mr. John Doe</p>
-            <p class="blog-content">The best way to wish your wife</p>
-            <a href="#" class="more-inform link">Read More</a>
+            <div class="bloger-block">
+              <p class="bloger">Mr. John Doe</p>
+              <p class="blog-content">The best way to wish your wife</p>
+              <a href="#" class="more-inform link">Read More</a>
+            </div>
           </div>
-          <ul class="list blogs-list">
-            <li class="blogs-item">
+          <ul class="list blog-list">
+            <li class="blog-item">
               <h3 class="title-blog-item">Database to find the gifts for your girlfriend</h3>
               <p class="text-blog-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -142,7 +144,7 @@
               </p>
               <a href="#" class="more-inform-item link">Read More</a>
             </li>
-            <li class="blogs-item">
+            <li class="blog-item">
               <h3 class="title-blog-item">
                 How Artificial Intelligence read your mind to find the best gift
               </h3>
@@ -157,40 +159,50 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <div class="container">
+
+        <div class="footer-nav">
         <ul class="list footer-list">
           <li class="footer-item"><a href="#" class="footer-nav-link link">Home</a></li>
           <li class="footer-item"><a href="#" class="footer-nav-link link">About</a></li>
-          <li class="footer-item"><a href="#" class="footer-logo link">logo</a></li>
+        </ul>  
+        <a href="#" class="footer-logo link">logo</a>
+        <ul class="list footer-list">
           <li class="footer-item"><a href="#" class="footer-nav-link link">Service</a></li>
           <li class="footer-item"><a href="#" class="footer-nav-link link">Blog</a></li>
         </ul>
-        <ul>
-          <li>
+        </div>
+
+        <div class="stripe"></div>
+
+        <ul class="list social-list">
+          <li class="social-list-item">
             <a href="#"
               ><img src="./images/Facebook.png" alt="facebook" width="40" height="40"
             /></a>
           </li>
-          <li>
+          <li class="social-list-item">
             <a href="#"><img src="./images/twitter.png" alt="twitter" width="40" height="40" /></a>
           </li>
-          <li>
+          <li class="social-list-item">
             <a href="#"
               ><img src="./images/instagram.png" alt="instagram" width="40" height="40"
             /></a>
           </li>
-          <li>
+          <li class="social-list-item">
             <a href="#"><img src="./images/youtube.png" alt="youtube" width="40" height="40" /></a>
           </li>
-          <li>
+          <li class="social-list-item">
             <a href="#"
               ><img src="./images/pinterest.png" alt="pinterest" width="40" height="40"
             /></a>
           </li>
         </ul>
-        <p class="copywrite">© 2010 — 2020</p>
-        <p class="privacy">Privacy — Terms</p>
+        <div class="copywrite">
+        <p class="copywrite-text">© 2010 — 2020</p>
+        <p class="copywrite-text">Privacy — Terms</p>
+        </div>
       </div>
     </footer>
   </body>
